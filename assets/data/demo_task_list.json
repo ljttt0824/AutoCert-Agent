@@ -1,0 +1,40 @@
+{
+  "batch": "DEMO-2030-06",
+  "today": "2030-06-10",
+  "submission_deadline": "2030-06-30",
+  "tasks": [
+    {
+      "id": "D-01",
+      "name": "Confirm demo vehicle configuration",
+      "role": "Engineering",
+      "planned_date": "2030-06-10",
+      "status": "in_progress",
+      "dependencies": []
+    },
+    {
+      "id": "D-02",
+      "name": "Review synthetic test data",
+      "role": "Test partner",
+      "planned_date": "2030-06-14",
+      "status": "blocked",
+      "block_reason": "Waiting for a fictional test fixture",
+      "dependencies": ["D-01"]
+    },
+    {
+      "id": "D-03",
+      "name": "Prepare demo submission package",
+      "role": "Program owner",
+      "planned_date": "2030-06-22",
+      "status": "not_started",
+      "dependencies": ["D-02"]
+    },
+    {
+      "id": "D-04",
+      "name": "Review optional demonstration images",
+      "role": "Documentation",
+      "planned_date": "2030-06-19",
+      "status": "not_started",
+      "dependencies": []
+    }
+  ]
+}
